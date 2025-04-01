@@ -10,6 +10,8 @@ Wonseok Roh, Hwanhee Jung, Giljoo Nam, Jinseop Yeom, Hyunje Park, Sang Ho Yoon, 
   <img src="figs/EASE.png"/>
 </div>
 
+<br>
+
 # Get Started
 
 ## 🛠 Environment
@@ -20,7 +22,7 @@ Install dependencies
 cd lib/attention_rpe_ops && python3 setup.py install && cd ../../
 
 # install pointgroup_ops
-cd maft/lib && python3 setup.py develop && cd ../../
+cd ease/lib && python3 setup.py develop && cd ../../
 
 # install EASE
 python3 setup.py develop
@@ -33,6 +35,8 @@ pip install git+https://github.com/openai/CLIP.git
 ```
 
 Note: Make sure you have installed `gcc` and `cuda`, and `nvcc` can work (if you install cuda by conda, it won't provide nvcc and you should install cuda manually.)
+
+👾 The full version of our model is coming soon! 👾
 
 ## 📦 Datasets Preparation
 
@@ -88,7 +92,9 @@ python3 tools/train.py configs/scannet/ease_scannet.yaml --resume [MODEL_PATH] -
 | Mask3D           | 55.2    | 73.7    |
 | QueryFormer      | 56.5    | 74.2    |
 | MAFT             | 59.9    | 76.5    |
-| **EASE (Ours)**      | **60.2**    | **77.2**    |
+| **[EASE (Ours)](https://drive.google.com/file/d/18pGy5Zb-cejCHXR_dM-6ubrB0j66zOJv/view?usp=drive_link)**      | **60.2**    | **77.2**    |
+
+<br>
 
 # Citation
 If you find this project useful, please consider citing:
