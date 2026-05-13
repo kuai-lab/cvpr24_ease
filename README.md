@@ -92,7 +92,7 @@ python3 tools/train.py configs/scannet/ease_scannet.yaml --resume [MODEL_PATH] -
 | Mask3D           | 55.2    | 73.7    |
 | QueryFormer      | 56.5    | 74.2    |
 | MAFT             | 59.9    | 76.5    |
-| **[EASE (Ours)](https://drive.google.com/file/d/18pGy5Zb-cejCHXR_dM-6ubrB0j66zOJv/view?usp=drive_link)**      | **60.2**    | **77.2**    |
+| **[EASE (Ours)](https://kuaicv.synology.me/weights/cvpr2024/ease/latest.pth)**      | **60.2**    | **77.2**    |
 
 <br>
 
